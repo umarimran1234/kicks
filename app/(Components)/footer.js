@@ -8,7 +8,7 @@ const Footer = () => {
   return (
 <>
 <footer style={{marginBottom:"1rem"}}>
-<div className="bg-blue-700 text-white p-12  mx-6 mt-10  h-[40rem] " style={{borderTopRightRadius:'3rem' , borderTopLeftRadius:'3rem'}} >
+<div className="bg-blue-700 text-white p-6  mx-6 mt-10  h-[40rem] " style={{borderTopRightRadius:'3rem' , borderTopLeftRadius:'3rem'}} >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:p-8 " >
         {/* Column 1 */}
         <div  className="flex flex-col justify-center">
