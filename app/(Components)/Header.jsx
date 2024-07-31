@@ -13,9 +13,9 @@ export default function Header() {
 
   return (
     <header className="lg:m-12 m-2 relative p-1 rounded-xl bg-white shadow-md">
-      <div className="container  flex  md:flex-row justify-between items-center py-4 px-6">
+      <div className=" container  flex  md:flex-row justify-between items-center py-4 px-6">
         <div className="flex items-center space-x-4">
-          <Link href="/new-drops" className="hidden md:flex items-center text-gray-700 hover:text-black">
+          <Link href="#" className="hidden md:flex items-center text-gray-700 hover:text-black">
             New Drops <span className="ml-1">🔥</span>
           </Link>
           <div className="hidden md:flex space-x-4">
@@ -24,8 +24,8 @@ export default function Header() {
                 Men <svg className="ml-1 h-4 w-4 fill-current" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" /></svg>
               </button>
               <div className="absolute hidden group-hover:block bg-white shadow-lg mt-1 rounded-md">
-                <Link href="/men/shoes" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Shoes</Link>
-                <Link href="/men/clothing" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Clothing</Link>
+                <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Shoes</Link>
+                <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Clothing</Link>
               </div>
             </div>
             <div className="relative group">
@@ -33,8 +33,8 @@ export default function Header() {
                 Women <svg className="ml-1 h-4 w-4 fill-current" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" /></svg>
               </button>
               <div className="absolute hidden group-hover:block bg-white shadow-lg mt-1 rounded-md">
-                <Link href="/women/shoes" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Shoes</Link>
-                <Link href="/women/clothing" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Clothing</Link>
+                <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Shoes</Link>
+                <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Clothing</Link>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Header() {
           </button>
         </div>
         <div className="flex-shrink-0 mt-4 md:mt-0">
-          <Link href="/">
+          <Link href="#">
             <Image src={kicks} width={120} height={40} />
           </Link>
         </div>
@@ -78,10 +78,10 @@ export default function Header() {
             </svg>
           </button>
           <div className="mt-6 bg-white " style={{zIndex:'999999'}}>
-            <Link href="/men/shoes" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Men Shoes</Link>
-            <Link href="/men/clothing" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Men Clothing</Link>
-            <Link href="/women/shoes" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Women Shoes</Link>
-            <Link href="/women/clothing" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Women Clothing</Link>
+            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Men Shoes</Link>
+            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Men Clothing</Link>
+            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Women Shoes</Link>
+            <Link href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Women Clothing</Link>
           </div>
         </div>
       </div>

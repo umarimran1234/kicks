@@ -33,7 +33,7 @@ const Footer = () => {
      <div className="container mx-auto px-4">
     <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
       {/* About Us Section */}
-      <div className='lg:col-span-2'>
+      <div className='lg:col-span-2 md:col-span-2'>
         <h2 className="text-4xl font-bold text-orange-500 mb-4">About us</h2>
         <p className="text-sm">
           We are the biggest hyperstore in the universe. We got you all cover with our exclusive collections and latest drops.
