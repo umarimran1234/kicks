@@ -31,7 +31,7 @@ export default function Home() {
         <div className="flex flex-row ">
 
         <div style={{zIndex:'999999'}} className="addimg absolute inset-0 flex flex-col items-start justify-end pb-12 p-8 bg-opacity-70">
-          <h2 className="text-3xl md:text-6xl font-bold text-white mb-4">NIKE AIR MAX</h2>
+          <h2 className="text-2xl md:text-6xl font-bold text-white mb-4">NIKE AIR MAX</h2>
           <p  className="text-[12px] w-50 md:text-xl text-white mb-4 max-w-md">
            Nike introducing the new air max for <br/> everyone's  comfort.
           </p>

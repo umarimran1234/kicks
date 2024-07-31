@@ -14,13 +14,13 @@ const Footer = () => {
         <div  className="flex flex-col justify-center">
           <h2 style={{lineHeight:'4rem'}} className="lg:text-5xl text-3xl font-bold mb-4">Join our Kicks Plus Club &amp; get 15% off</h2>
           <p className="mb-2">Sign up for free &amp; join the community.</p>
-          <div className="flex ">
+          <div className="flex flex-col lg:flex-row">
              <input 
               type="email" 
               placeholder="Enter your email" 
-              className="p-2 rounded-xl w-[13rem] lg:w-72 bg-transparent border border-white placeholder-gray-300 text-white focus:outline-none"
+              className="p-2 rounded-xl w-[17rem] lg:w-72 bg-transparent border border-white placeholder-gray-300 text-white focus:outline-none"
             />
-            <button className="bg-black  text-white p-2 mx-2 w-20 rounded-xl">Submit</button>
+            <button className="bg-black  text-white p-2 mt-2 mx-2 w-20 rounded-xl">Submit</button>
           </div>
         </div>
         {/* Column 2 */}
@@ -113,7 +113,7 @@ const Footer = () => {
 <Image  className='lg:h-42 h-54  mt-12'  src={logo}/>
     </div>
 
-<div className='text-center'>
+<div className='text-center px-4'>
 <p className=' lg:text-2lg text-sm'>© All rights reserved | Made with ❤️ by <span style={{color:'blue'}} > Visiata Systems International</span> </p>
 </div>
 </footer>
