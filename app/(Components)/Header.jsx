@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import kicks from '../../../kicks/public/header/clicks.png';
+import kicks from '../../public/header/clicks.png';
 
 export default function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
