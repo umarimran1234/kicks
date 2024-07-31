@@ -12,8 +12,8 @@ export default function Header() {
   };
 
   return (
-    <header className="lg:m-12 m-2 relative p-1 rounded-xl bg-white shadow-md">
-      <div className=" container  flex  md:flex-row justify-between items-center py-4 px-6">
+    <header className="lg:m-12 m-2 relative  rounded-xl bg-white shadow-md">
+      <div className=" container  flex  md:flex-row justify-between items-center py-4 px-3">
         <div className="flex items-center space-x-4">
           <Link href="#" className="hidden md:flex items-center text-gray-700 hover:text-black">
             New Drops <span className="ml-1">🔥</span>
